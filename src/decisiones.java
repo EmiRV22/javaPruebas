@@ -16,7 +16,7 @@ public class decisiones {
         if (incluidoEnPlan || plan.equals("plus")){
             System.out.println("Disfruta la pelicula");
         } else {
-            System.out.println("Pelicula no disponible en el plann");
+            System.out.println("Pelicula no disponible en el plan");
         }
 
     }
