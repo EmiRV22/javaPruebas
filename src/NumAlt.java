@@ -7,18 +7,18 @@ public class NumAlt {
         Random random = new Random();
 
         int randomNum = random.nextInt(101);
-        int intentos = 0;
+        int intento = 0;
 
         System.out.println("Bienvenido al juego de adivina el numero");
         System.out.println("Deberas intentar el numero entre el 0 y 100");
 
-        while (intentos < 5) {
+        while (intento < 5) {
             System.out.print("Ingresa tu intento: ");
             int intentoUsuario = scanner.nextInt();
-            intentos++;
+            intento++;
 
             if (intentoUsuario == randomNum) {
-                System.out.println("¡Felicidades! ¡Adivinaste el número en " + intentos + " intentos!");
+                System.out.println("¡Felicidades! ¡Adivinaste el número en " + intento + " intentos!");
                 break; // Salir del bucle si el usuario adivina
             } else if (intentoUsuario < randomNum) {
                 System.out.println("El número secreto es mayor que " + intentoUsuario + ".");
@@ -27,8 +27,8 @@ public class NumAlt {
             }
         }
 
-        if (intentos == 5) {
-            System.out.println("¡Agotaste tus 5 intentos! El número secreto era " + randomNum + ".");
+        if (intento == 5) {
+            System.out.println("¡Agotaste tus 5 intentos! El número secreto es" + randomNum + ".");
         }
 
     }
