@@ -26,7 +26,7 @@ public class NumAlt {
                 System.out.println("El número secreto es menor que " + intentoUsuario + ".");
             }
         }
-            ///test branch
+            ///test branch hj
         if (intento == 5) {
             System.out.println("¡Agotaste tus 5 intentos! El número secreto es" + randomNum + ".");
         }
