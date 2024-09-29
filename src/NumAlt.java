@@ -18,7 +18,7 @@ public class NumAlt {
             intento++;
 
             if (intentoUsuario == randomNum) {
-                System.out.println("¡Felicidades! ¡Adivinaste el número en " + intento + " intentos!");
+                System.out.println("¡Felicidadess! ¡Adivinaste el número en " + intento + " intentos!");
                 break; // Salir del bucle si el usuario adivina
             } else if (intentoUsuario < randomNum) {
                 System.out.println("El número secreto es mayor que " + intentoUsuario + ".");
