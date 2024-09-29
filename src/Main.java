@@ -37,7 +37,7 @@ public class Main {
                 , se convirtió en un referente
                 del género de ciencia ficción y acción.
                 La trama gira en torno a la simulación de la realidad y la lucha por la libertad
-                de la humanidad contra las máquinas.
+                de la humanidad contra las máquins.
                 """;
         System.out.println(sinopsis);
 
